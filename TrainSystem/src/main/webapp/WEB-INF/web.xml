@@ -29,4 +29,14 @@
     <servlet-name>AllTrains</servlet-name>
     <url-pattern>/AllTrains</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TrainServlet</display-name>
+    <servlet-name>TrainServlet</servlet-name>
+    <servlet-class>com.servlets.TrainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrainServlet</servlet-name>
+    <url-pattern>/TrainServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

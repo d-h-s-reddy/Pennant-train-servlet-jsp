@@ -14,11 +14,10 @@ import jakarta.servlet.http.HttpSession;
  * Servlet implementation class LoginServlet
  */
 public class LoginServlet extends HttpServlet {
-	LoginFetech l = new LoginFetech();
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+		LoginFetech l = new LoginFetech();
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		try {
